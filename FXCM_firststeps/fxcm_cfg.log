@@ -1,0 +1,12 @@
+|ERROR|2022-06-09 21:44:07,315|Connection error: HTTPSConnectionPool(host='api-demo.fxcm.com', port=443): Read timed out. (read timeout=5)
+|ERROR|2022-06-09 21:44:07,315|Socket returns unknown error.
+|ERROR|2022-06-09 21:45:27,932|Error in get_candles: Illegal param. number: 100000
+|ERROR|2022-06-09 21:49:49,373|Server reports an error: {'executed': False, 'error': 'Invalid from/to parameneters.'}.
+|ERROR|2022-06-09 21:49:49,373|URL: https://api-demo.fxcm.com:443/candles/1/m1?num=10&from=1593561600&to=1596153600
+|ERROR|2022-06-09 21:49:49,373|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Hau3c-6xmgiuzt45CFcA9e27fc6e0f6fcdaac2d4f3541053743e752c5938', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2022-06-09 21:49:49,391|Params: {'num': 10, 'from': 1593561600, 'to': 1596153600}
+|ERROR|2022-06-09 21:49:49,391|Bearer token: Bearer Hau3c-6xmgiuzt45CFcA9e27fc6e0f6fcdaac2d4f3541053743e752c5938
+|ERROR|2022-06-09 21:49:49,391|Connection status: established
+|ERROR|2022-06-09 21:49:49,391|Socket session id: Hau3c-6xmgiuzt45CFcA
+|ERROR|2022-06-09 21:49:49,391|Can not parse server answer to json object: {"response":{"executed":false,"error":"Invalid from/to parameneters."},"instrument_id":"1","period_id":"m1","candles":[]}.
+|ERROR|2022-06-09 21:56:47,086|Socket returns unknown error.
